@@ -20,16 +20,15 @@ const AboutMe = () => {
                 className="rounded-full object-cover border-4 border-gray-700"
               />
             </div>
-
             <div className="space-y-6 text-lg text-gray-300 text-left leading-relaxed max-w-lg">
               <p>
-                I&apos;m Clariant Benedictus Tan, a Computer Science student at Binus University specializing in Intelligent Systems. I'm passionate about building end-to-end intelligent applications, from the initial idea and design all the way to a deployed product.
+                I&apos;m Clariant Benedictus Tan, a Computer Science student at Binus University specializing in Intelligent Systems. I&apos;m passionate about building end-to-end intelligent applications, from the initial idea and design all the way to a deployed product.
               </p>
               <p>
-                My fascination with AI became personal when my family got a new car with Advanced Driver-Assistance Systems (ADAS). Seeing technology like traffic sign recognition in action sparked my curiosity to understand the magic behind it. This has led me to pursue projects where I can apply my skills in practical ways, whether that's designing a user-friendly interface for an AI app or diving deep into the data to train an accurate machine learning model.
+                My fascination with AI became personal when my family got a new car with Advanced Driver-Assistance Systems (ADAS). Seeing technology like traffic sign recognition in action sparked my curiosity to understand the magic behind it. This has led me to pursue projects where I can apply my skills in practical ways, whether that&apos;s designing a user-friendly interface for an AI app or diving deep into the data to train an accurate machine learning model.
               </p>
               <p>
-                I thrive in collaborative team environments and I'm currently seeking an internship where I can help build the next generation of smart technology.
+                I thrive in collaborative team environments and I&apos;m currently seeking an internship where I can help build the next generation of smart technology.
               </p>
             </div>
           </div>
