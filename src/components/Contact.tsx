@@ -10,10 +10,10 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-gray-300 mb-8 max-w-xl mx-auto">
-            I'm currently looking for internship opportunities. My inbox is always open, so whether you have a question or just want to say hi, feel free to reach out!
+            I&apos;m currently looking for internship opportunities. My inbox is always open, so whether you have a question or just want to say hi, feel free to reach out!
           </p>
           <a
-            href="mailto:clariantb13@gmail.com" 
+            href="mailto:clariantb13@gmail.com"
             className="inline-block px-8 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors"
           >
             Say Hello
