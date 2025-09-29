@@ -19,7 +19,7 @@ export default function Home() {
               A Computer Science student specializing in Intelligent Systems, passionate about building and deploying real-world AI applications.
             </p>
             <div className="flex gap-4 mt-8 justify-center">
-              <a href="/clariant-resume.pdf" className="px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
+              <a href="/documents/clariant-resume.pdf" className="px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors">
                 View Resume
               </a>
               <a href="https://github.com/clariantb" target="_blank" rel="noopener noreferrer" className="px-6 py-3 border border-gray-500 rounded-lg hover:bg-gray-800 transition-colors">
