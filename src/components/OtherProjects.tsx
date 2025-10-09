@@ -6,7 +6,7 @@ const otherProjectsData = [
     description: "Redeveloped and modernized a company's outdated Blogspot website into a professional, custom-coded site using foundational web technologies to improve its brand presence and maintainability.",
     tags: ["HTML", "CSS", "JavaScript"],
     link: "https://sanminglobe.netlify.app/",
-    status: "In Progress",
+    status: "Live",
   },
   {
     title: "ABC Lima Dasar Game",
