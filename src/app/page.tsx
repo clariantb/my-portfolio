@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <section className="h-screen w-full flex flex-col items-center justify-center text-center p-4 relative">
-        
+
         <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
         <ScrollFadeIn>
           <div className="relative z-10">
@@ -31,7 +31,7 @@ export default function Home() {
             </div>
           </div>
         </ScrollFadeIn>
-    </section>
+      </section>
 
       <FeaturedProjects />
       <AboutMe />

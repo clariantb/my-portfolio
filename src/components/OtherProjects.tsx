@@ -15,7 +15,7 @@ const otherProjectsData = [
     link: "#",
   status: "In Progress",
   },
-  // You can add your piano memory game here in the future
+  // add piano memory game here in the future
 ];
 
 const StatusTag = ({ status }: { status: string }) => {
