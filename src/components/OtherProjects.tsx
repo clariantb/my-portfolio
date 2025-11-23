@@ -8,14 +8,14 @@ const otherProjectsData = [
     link: "https://sanminglobe.netlify.app/",
     status: "Live",
   },
-  {
-    title: "ABC Lima Dasar Game",
-    description: "An online multiplayer word game based on the popular Indonesian game 'ABC Lima Dasar'.",
-    tags: ["React", "Socket.IO", "Node.js"], 
-    link: "#",
-  status: "In Progress",
-  },
-  // add piano memory game here in the future
+  // {
+  //   title: "ABC Lima Dasar Game",
+  //   description: "An online multiplayer word game based on the popular Indonesian game 'ABC Lima Dasar'.",
+  //   tags: ["React", "Socket.IO", "Node.js"], 
+  //   link: "#",
+  // status: "In Progress",
+  // },
+  // add piano memory game  in the future
 ];
 
 const StatusTag = ({ status }: { status: string }) => {

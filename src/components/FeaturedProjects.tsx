@@ -61,7 +61,6 @@ const FeaturedProjects = () => {
                   </div>
                   <div className="mt-auto flex flex-wrap gap-4">
                     <a href={project.caseStudyUrl} className="px-5 py-2.5 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium">View Case Study</a>
-                    {/* New flexible button logic */}
                     {project.githubUrl && <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 border border-gray-500 rounded-lg hover:bg-gray-600 transition-colors text-sm font-medium">View on GitHub</a>}
                     {project.demoUrl && <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 border border-gray-500 rounded-lg hover:bg-gray-600 transition-colors text-sm font-medium">Watch Demo</a>}
                     {project.paperUrl && <a href={project.paperUrl} target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 border border-gray-500 rounded-lg hover:bg-gray-600 transition-colors text-sm font-medium">View Paper</a>}

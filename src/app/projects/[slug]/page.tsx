@@ -24,7 +24,6 @@ export default async function ProjectPage({ params }: { params: { slug: string }
   }
 
   return (
-    // Removed the solid background from this div
     <div className="min-h-screen">
       <main className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         
@@ -36,14 +35,12 @@ export default async function ProjectPage({ params }: { params: { slug: string }
         </ScrollFadeIn>
         
         <div className="space-y-12">
-          {/* Header Section with animation */}
           <ScrollFadeIn delay={0.1}>
             <header>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-normal bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
                 {project.title}
               </h1>
               <p className="text-lg text-gray-300 mb-6">{project.summary}</p>
-              {/* Animated Tags would go here if we were using them */}
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech) => (
                   <AnimatedTag key={tech}>
@@ -56,7 +53,6 @@ export default async function ProjectPage({ params }: { params: { slug: string }
           
           <hr className="border-gray-700" />
 
-          {/* Main Content Sections with staggered animations */}
           <div className="space-y-10">
             <ScrollFadeIn delay={0.2}>
               <div>

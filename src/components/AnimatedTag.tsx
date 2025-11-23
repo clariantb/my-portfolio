@@ -1,21 +1,16 @@
-// src/components/AnimatedTag.tsx
 "use client";
-import React, { useState, useEffect } from "react"; // <-- Import useState and useEffect
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-// This is the Meteors component with the fix applied
 const Meteors = ({ number }: { number?: number }) => {
-  // This state will help us render only on the client
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    // This runs only in the browser, after the component mounts
     setIsClient(true);
   }, []);
 
   const meteors = new Array(number || 20).fill(true);
   
-  // Render nothing on the server, and the meteors on the client
   if (!isClient) {
     return null;
   }
@@ -46,7 +41,6 @@ const Meteors = ({ number }: { number?: number }) => {
   );
 };
 
-// No changes needed for the AnimatedTag component
 export const AnimatedTag = ({
   children,
   className,
